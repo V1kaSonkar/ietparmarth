@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --primary-text-color:#183b56;
+    --secondary-text-color:#577592;
+    --accent-color:#2294cd;
+    --accent-color-dark:#1d69a3;
+    --padding-inline-section:20px;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+    color:var(--primary-text-color);
+
+}
+h1{
+    font-size: 3rem;;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1rem;
+    font-weight: 700;
+}
+p{
+    font-family: 'Roboto',sans-serif;
+    color: var(--secondary-text-color);
+    font-size: 1.25rem;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+/* utility clases */
+.container{
+   max-width:auto ;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    
+}
+.hover-links{
+    color: var(--primary-text-color);
+}
+.hover-links:hover{
+    color:var(--accent-color);
+}
+/* top banner  */
+.top-banner{
+    background-color: #4fb3d4;
+    background-image: url('./asset\ 30.png');
+    background-size: 300px;
+    position: sticky;
+}
+/* .container-banner-text{
+    justify-content:inline;
+    text-align: flex;
+} */
+.container-banner-text:hover{
+    color: #ff573d;
+}
+.banner-text{
+    color: white;
+    padding:15px 30px;
+    text-align: center;
+}
+/* nav bar  */
+.main-nav{
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+#at{
+    gap: 40px;
+    padding-left: 40px;
+}
+.back{
+    gap: 20px;
+}
+#imm{
+    height:454px;
+    width:365px;
+}
+/* header section  */
+.tool{
+    padding:50px,var(--padding-inline-section) ;
+    
+}
+.big-feature-section{
+    justify-content: center;
+    gap:20px;
+    align-items: center;
+}
+section{
+    
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.header-right{
+    text-align: center;
+    padding-left: 50PX;
+    margin-right: 30PX;
+}
+.btn{
+    height: 68px;
+    width: 249px;
+    box-shadow: 5px 5px 0 rgb(0 0 0 / 20%);
+    /* border-radius:0px; */
+    border: 0px;
+    
+    cursor: pointer;
+    /* transition: width 2s; */
+}
+.btn:hover{
+    transform: scale(1.1);
+    
+}
+
+
+.companies-section{
+margin-block: 30px;
+}
+.logos_flex img{
+    padding: 20px 30px;
+    cursor: pointer;
+
+}
+.insta{
+    width: 20px;
+    height: 20px;
+}
+.logos_flex img:hover{
+     transform: scale(0.85);
+     transition: 0.5s ease-in-out;
+
+}
+
+.companies-header{
+    text-align: center;
+    font-size: 3REM;
+}
+span{
+    color: #ff573d;
+}
+.copyright{
+    background-color:rgb(222, 225, 230) ;
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+}
